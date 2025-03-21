@@ -49564,6 +49564,8 @@ export namespace proto {
 
     /** Properties of a WebMessageInfo. */
     interface IWebMessageInfo {
+        /** original participant before normalized */
+        originalParticipant?: (string|undefined|null);
 
         /** WebMessageInfo key */
         key: proto.IMessageKey;
